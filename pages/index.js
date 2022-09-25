@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Dock from '../components/Dock'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className={styles.dock} />
+      <Dock />
     </div>
   )
 }
