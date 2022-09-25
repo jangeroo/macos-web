@@ -1,9 +1,16 @@
+@import url('./reset.css');
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  background-image: url('../static/images/macos-monterey-blue-light-mode.jpg');
+  background-size: cover;
+
+  background-position: center
 }
 
 a {
@@ -19,8 +26,9 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
-    background: black;
+    /* background-image: url('../static/images/macos-monterey-blue-dark-mode.jpg'); */
   }
 }
